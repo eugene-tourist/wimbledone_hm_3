@@ -1,0 +1,54 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+/* --------------- */
+.description{
+}
+
+.history h2 {
+    color: red;
+}
+h3{
+    color: blueviolet;
+}
+
+.past-champions{
+    color: palevioletred;
+}
+
+#color-link{
+    color: goldenrod ;
+}
